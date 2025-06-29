@@ -4,7 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sitio de Fabricio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,6 +20,7 @@
       padding: 0;
       color: #2e2e2e;
     }
+
     header {
       background-color: #2e7d32;
       color: white;
@@ -20,19 +28,30 @@
       text-align: center;
       box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
     }
-    h1 { margin: 0; font-size: 2.5em; }
-    .foto-perfil { margin-top: 20px; text-align: center; }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .foto-perfil {
+      margin-top: 20px;
+      text-align: center;
+    }
+
     .foto-perfil img {
       width: 200px;
       height: auto;
       border-radius: 15px;
       box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
     }
+
     .container {
       max-width: 900px;
       margin: 30px auto;
       padding: 20px;
     }
+
     .seccion {
       background-color: #ffffff;
       padding: 25px;
@@ -40,11 +59,31 @@
       margin-bottom: 30px;
       box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     }
-    h2 { color: #2e7d32; margin-top: 0; }
-    ul { list-style-type: square; padding-left: 20px; }
-    a { color: #1b5e20; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .icono { color: #2e7d32; margin-right: 8px; }
+
+    h2 {
+      color: #2e7d32;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #1b5e20;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .icono {
+      color: #2e7d32;
+      margin-right: 8px;
+    }
+
     footer {
       text-align: center;
       font-size: 0.9em;
@@ -54,41 +93,49 @@
   </style>
 </head>
 <body>
+
   <header>
     <h1><i class="fas fa-user icono"></i> Sitio de Fabricio</h1>
   </header>
 
+  <!-- Foto de perfil -->
   <div class="foto-perfil">
-    <img src="fabricio.jpeg" alt="Foto de Fabricio">
+    <img src="fabricio.JPEG" alt="Foto de Fabricio">
   </div>
 
   <div class="container">
-    <div class="seccion" style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="fabricio.jpeg" alt="Foto de Fabricio" style="width: 200px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-  <div>
-    <h2><i class="fas fa-id-card icono"></i> Biografía</h2>
-    <p>
-      Soy <strong>Fabricio Javier Rivera Astete</strong>. Bienvenido a mi sitio web, creado como parte de un proyecto académico con el propósito de reflejar mi desarrollo tanto personal como profesional en el campo de la informática.
-    </p>
-    <p>
-      Actualmente estudio <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank"><strong>Ingeniería Industrial</strong></a> en la Universidad Católica San Pablo.
-    </p>
-    <p>
-      Tengo un gran interés por la música y disfruto practicar diversos deportes como el fútbol, básquetbol, natación y boxeo. Espero que este espacio sea útil para compartir algunos de mis trabajos, ideas y el camino que voy recorriendo en mi formación como futuro profesional. ¡Gracias por tu visita!
-    </p>
-    <p>
-      <strong>Hobbies:</strong> Jugador de fútbol en primeras y segunda división de Arequipa y Mollendo.
-    </p>
-  </div>
-</div>
 
+    <!-- BIOGRAFÍA -->
+    <div class="seccion">
+      <h2><i class="fas fa-id-card icono"></i> Biografía</h2>
+      <p>
+        Soy <strong>Fabricio Javier Rivera Astete</strong>. Bienvenido a mi sitio web, creado como parte de un proyecto académico con el propósito de reflejar mi desarrollo tanto personal como profesional en el campo de la informática.
+      </p>
+      <p>
+        Actualmente estudio <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank"><strong>Ingeniería Industrial</strong></a> en la Universidad Católica San Pablo.
+      </p>
+      <p>
+        Tengo un gran interés por la música y disfruto practicar diversos deportes como el fútbol, básquetbol, natación y boxeo. Espero que este espacio sea útil para compartir algunos de mis trabajos, ideas y el camino que voy recorriendo en mi formación como futuro profesional. ¡Gracias por tu visita!
+      </p>
+      <p>
+        <strong>Hobbies:</strong> Jugador de fútbol en primeras y segunda división de Arequipa y Mollendo.
+      </p>
+    </div>
+
+    <!-- ESTUDIOS -->
     <div class="seccion">
       <h2><i class="fas fa-school icono"></i> Estudios</h2>
       <p><strong>Primaria:</strong> Colegio Abraham Lincoln (1ro a 5to de primaria)</p>
-      <p><strong>Primaria y secundaria:</strong> <a href="https://franciscanos.pe/colegio03/" target="_blank">Colegio San Francisco de Asís de Mollendo</a> (5to de primaria hasta 5to de secundaria)</p>
-      <p><strong>Actualidad:</strong> Estudia en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo</a></p>
+      <p><strong>Primaria y secundaria:</strong> 
+        <a href="https://franciscanos.pe/colegio03/" target="_blank">Colegio San Francisco de Asís de Mollendo</a> 
+        (5to de primaria hasta 5to de secundaria)
+      </p>
+      <p><strong>Actualidad:</strong> Estudia en la 
+        <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo</a>
+      </p>
     </div>
 
+    <!-- CURSOS -->
     <div class="seccion">
       <h2><i class="fas fa-book-open icono"></i> Cursos</h2>
       <p>Actualmente estoy llevando los siguientes cursos:</p>
@@ -100,6 +147,7 @@
       </ul>
       <p><strong>Profesor de Informática:</strong> <a href="mailto:ecuadros@ucsp.edu.pe">Ernesto Cuadros Vargas</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">https://www.linkedin.com/in/ecuadrosv</a></p>
+
       <p>Compañeros del curso de informática:</p>
       <ul>
         <li><a href="https://darrylpagweb.github.io/darrylpagweb/" target="_blank">Darryl Alberto Muller Herrera</a></li>
@@ -109,18 +157,21 @@
       </ul>
     </div>
 
+    <!-- CONTACTO -->
     <div class="seccion">
-      <h2><i class="fas fa-envelope-open-text icono"></i> Contacto</h2>
-      <p><strong>Correo:</strong> <a href="mailto:fabricio.rivera.astete@ucsp.edu.pe">fabricio.rivera.astete@ucsp.edu.pe</a></p>
-      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/fabo.rivera8?igsh=cndkam55eXpwa2M0" target="_blank">@fabo.rivera8</a></p>
-      <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@fabo.rivera?_t=ZS-8xavAEwM7Vw&_r=1" target="_blank">@fabo.rivera</a></p>
-      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1EuZsQdnrA/?mibextid=wwXIfr" target="_blank">Fabricio Rivera</a></p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fabricio-javier-rivera-astete-b65126372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Fabricio Javier Rivera Astete</a></p>
-    </div>
+  <h2><i class="fas fa-envelope-open-text icono"></i> Contacto</h2>
+  <p><strong>Correo:</strong> <a href="mailto:fabricio.rivera.astete@ucsp.edu.pe">fabricio.rivera.astete@ucsp.edu.pe</a></p>
+  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/fabo.rivera8" target="_blank">@fabo.rivera8</a></p>
+  <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@fabo.rivera" target="_blank">@fabo.rivera</a></p>
+  <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1EuZsQdnrA/?mibextid=wwXIfr" target="_blank">Fabricio Rivera</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fabricio-javier-rivera-astete-b65126372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Fabricio Javier Rivera Astete</a></p>
+</div>
+
   </div>
 
   <footer>
     Hecho por Fabricio Rivera - 2025
   </footer>
+
 </body>
 </html>
